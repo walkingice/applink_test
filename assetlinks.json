@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "net.julianchu.applinktest",
+    "sha256_cert_fingerprints": ["D3:1C:D8:33:AF:6C:1F:B7:D7:CD:8A:83:38:B2:C1:F9:C3:4E:9D:1D:D7:DA:4F:FE:E0:1C:33:A0:20:36:A3:64"]
+  }
+}]
