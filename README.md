@@ -1,8 +1,8 @@
-# Introduction
+y Introduction
 
 This is a very simple app with just three activities, for testing app links.
 
-There is already a prepared json file on my own [host web.dryrun.dev](https://web.dryrun.dev/.well-known/assetlinks.json).
+There is already a prepared json file on my own [host applinks.cmds.dev](https://applinks.cmds.dev/.well-known/assetlinks.json).
 
 # Installation
 
@@ -11,7 +11,7 @@ There is already a prepared json file on my own [host web.dryrun.dev](https://we
 a successful installation of this app will give log
 
 ```
-I/IntentFilterIntentOp: Verifying IntentFilter. verificationId:4 scheme:"https" hosts:"web.dryrun.dev" package:"net.julianchu.applinktest".
+I/IntentFilterIntentOp: Verifying IntentFilter. verificationId:4 scheme:"https" hosts:"applinks.cmds.dev" package:"net.julianchu.applinktest".
 I/IntentFilterIntentOp: Verification 4 complete. Success:true. Failed hosts:.
 ```
 
@@ -24,7 +24,7 @@ $ adb shell dumpsys package d
 Use this command to test app-link. FirstActivity will be launched.
 
 ```bash
-$ adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE  -d "https://web.dryrun.dev/foobar"
+$ adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE  -d "https://applinks.cmds.dev/foobar"
 ```
 
 # Problem
